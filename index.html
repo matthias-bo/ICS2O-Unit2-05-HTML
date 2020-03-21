@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Matthias's math webpage </title>
+    <meta charset="utf-8">
+    <meta name="description" content="My math webpage">
+    <meta name="keywords" content="Math">
+    <meta name="author" content="Matthias Bo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <h1>Matthias's javascript math webpage</h1>
+    <button id="squarearea">Click me to find answer!</button>
+    <input type="text" id="variable">
+    <script>
+    let length;
+    let area;
+
+    document.getElementById("squarearea").addEventListener("click", myfunction);
+    function myfunction() {
+    length=document.getElementById('variable').value;
+    area=length*length;
+    alert(area);
+}
+    </script>
+    
+    </body>
+</html>
